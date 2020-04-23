@@ -7,5 +7,10 @@
 //
 
 import Foundation
+import Firebase
 
-
+class FirebaseSystem {
+    
+    static let shared = FirebaseSystem()
+    let db = Firestore.firestore()
+}
