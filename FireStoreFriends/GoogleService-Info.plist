@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>409527398216-a3rs20hoabpuel8umq2k3eebotk192rr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.409527398216-a3rs20hoabpuel8umq2k3eebotk192rr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC1AUAb0EHMLWunVBlgaB7_RDcXWA2x7Es</string>
+	<key>GCM_SENDER_ID</key>
+	<string>409527398216</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jordanfurr.FireStoreFriends</string>
+	<key>PROJECT_ID</key>
+	<string>firestorefriends</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firestorefriends.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:409527398216:ios:bf7e7c0341e07c1bb44d7d</string>
+	<key>DATABASE_URL</key>
+	<string>https://firestorefriends.firebaseio.com</string>
+</dict>
+</plist>
