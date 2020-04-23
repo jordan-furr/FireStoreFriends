@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1BB4224F60730A068945F089 /* Pods_FireStoreFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDAE6B422EF05DAB06317D7 /* Pods_FireStoreFriends.framework */; };
+		C53BD3642452386600121F99 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD3632452386600121F99 /* SignUpViewController.swift */; };
+		C53BD366245256EF00121F99 /* SpecialTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD365245256EF00121F99 /* SpecialTabBar.swift */; };
+		C53BD36824525C0B00121F99 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD36724525C0B00121F99 /* ProfileViewController.swift */; };
 		C5750E1D2452097900598112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E1C2452097900598112 /* AppDelegate.swift */; };
 		C5750E1F2452097A00598112 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E1E2452097A00598112 /* SceneDelegate.swift */; };
 		C5750E242452097A00598112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5750E222452097A00598112 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		6BDAE6B422EF05DAB06317D7 /* Pods_FireStoreFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireStoreFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80589FDF48B5BD1BD9051714 /* Pods-FireStoreFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireStoreFriends.debug.xcconfig"; path = "Target Support Files/Pods-FireStoreFriends/Pods-FireStoreFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		C53BD3632452386600121F99 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C53BD365245256EF00121F99 /* SpecialTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTabBar.swift; sourceTree = "<group>"; };
+		C53BD36724525C0B00121F99 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C5750E192452097900598112 /* FireStoreFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireStoreFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5750E1C2452097900598112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5750E1E2452097A00598112 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 			children = (
 				C5750E222452097A00598112 /* Main.storyboard */,
 				C5750E31245209DE00598112 /* FirebaseSystem.swift */,
+				C53BD3632452386600121F99 /* SignUpViewController.swift */,
+				C53BD36724525C0B00121F99 /* ProfileViewController.swift */,
+				C53BD365245256EF00121F99 /* SpecialTabBar.swift */,
 				C5750E30245209C100598112 /* Resources */,
 			);
 			path = FireStoreFriends;
@@ -218,8 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53BD36824525C0B00121F99 /* ProfileViewController.swift in Sources */,
 				C5750E32245209DE00598112 /* FirebaseSystem.swift in Sources */,
 				C5750E1D2452097900598112 /* AppDelegate.swift in Sources */,
+				C53BD366245256EF00121F99 /* SpecialTabBar.swift in Sources */,
+				C53BD3642452386600121F99 /* SignUpViewController.swift in Sources */,
 				C5750E1F2452097A00598112 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
