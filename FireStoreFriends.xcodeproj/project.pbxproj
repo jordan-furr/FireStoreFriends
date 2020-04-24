@@ -11,6 +11,12 @@
 		C53BD3642452386600121F99 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD3632452386600121F99 /* SignUpViewController.swift */; };
 		C53BD366245256EF00121F99 /* SpecialTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD365245256EF00121F99 /* SpecialTabBar.swift */; };
 		C53BD36824525C0B00121F99 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD36724525C0B00121F99 /* ProfileViewController.swift */; };
+		C53BD36A24533EAF00121F99 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD36924533EAE00121F99 /* User.swift */; };
+		C53BD36D2453550E00121F99 /* UserListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD36C2453550E00121F99 /* UserListTableViewController.swift */; };
+		C53BD370245377DE00121F99 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD36E245377DE00121F99 /* UserCell.swift */; };
+		C53BD371245377DE00121F99 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C53BD36F245377DE00121F99 /* UserCell.xib */; };
+		C53BD3762453818900121F99 /* FriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BD3752453818900121F99 /* FriendListTableViewController.swift */; };
+		C56E061B2453891A006DEB5D /* RequestListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E061A2453891A006DEB5D /* RequestListTableViewController.swift */; };
 		C5750E1D2452097900598112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E1C2452097900598112 /* AppDelegate.swift */; };
 		C5750E1F2452097A00598112 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E1E2452097A00598112 /* SceneDelegate.swift */; };
 		C5750E242452097A00598112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5750E222452097A00598112 /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 		C53BD3632452386600121F99 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C53BD365245256EF00121F99 /* SpecialTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTabBar.swift; sourceTree = "<group>"; };
 		C53BD36724525C0B00121F99 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C53BD36924533EAE00121F99 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C53BD36C2453550E00121F99 /* UserListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewController.swift; sourceTree = "<group>"; };
+		C53BD36E245377DE00121F99 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C53BD36F245377DE00121F99 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		C53BD3752453818900121F99 /* FriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewController.swift; sourceTree = "<group>"; };
+		C56E061A2453891A006DEB5D /* RequestListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListTableViewController.swift; sourceTree = "<group>"; };
 		C5750E192452097900598112 /* FireStoreFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireStoreFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5750E1C2452097900598112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5750E1E2452097A00598112 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +70,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C53BD36B24533EB600121F99 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C53BD365245256EF00121F99 /* SpecialTabBar.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C53BD3732453801800121F99 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C53BD3632452386600121F99 /* SignUpViewController.swift */,
+				C53BD36724525C0B00121F99 /* ProfileViewController.swift */,
+				C53BD36C2453550E00121F99 /* UserListTableViewController.swift */,
+				C53BD3752453818900121F99 /* FriendListTableViewController.swift */,
+				C56E061A2453891A006DEB5D /* RequestListTableViewController.swift */,
+				C53BD36E245377DE00121F99 /* UserCell.swift */,
+				C53BD36F245377DE00121F99 /* UserCell.xib */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C53BD3742453805F00121F99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C53BD36924533EAE00121F99 /* User.swift */,
+				C5750E31245209DE00598112 /* FirebaseSystem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C5750E102452097900598112 = {
 			isa = PBXGroup;
 			children = (
@@ -80,10 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				C5750E222452097A00598112 /* Main.storyboard */,
-				C5750E31245209DE00598112 /* FirebaseSystem.swift */,
-				C53BD3632452386600121F99 /* SignUpViewController.swift */,
-				C53BD36724525C0B00121F99 /* ProfileViewController.swift */,
-				C53BD365245256EF00121F99 /* SpecialTabBar.swift */,
+				C53BD3742453805F00121F99 /* Model */,
+				C53BD3732453801800121F99 /* View Controllers */,
+				C53BD36B24533EB600121F99 /* Helpers */,
 				C5750E30245209C100598112 /* Resources */,
 			);
 			path = FireStoreFriends;
@@ -175,6 +217,7 @@
 				C5750E3424520BAA00598112 /* GoogleService-Info.plist in Resources */,
 				C5750E262452097F00598112 /* Assets.xcassets in Resources */,
 				C5750E242452097A00598112 /* Main.storyboard in Resources */,
+				C53BD371245377DE00121F99 /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,11 +271,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C53BD36824525C0B00121F99 /* ProfileViewController.swift in Sources */,
+				C53BD3762453818900121F99 /* FriendListTableViewController.swift in Sources */,
 				C5750E32245209DE00598112 /* FirebaseSystem.swift in Sources */,
+				C53BD36D2453550E00121F99 /* UserListTableViewController.swift in Sources */,
 				C5750E1D2452097900598112 /* AppDelegate.swift in Sources */,
 				C53BD366245256EF00121F99 /* SpecialTabBar.swift in Sources */,
+				C53BD370245377DE00121F99 /* UserCell.swift in Sources */,
+				C56E061B2453891A006DEB5D /* RequestListTableViewController.swift in Sources */,
 				C53BD3642452386600121F99 /* SignUpViewController.swift in Sources */,
 				C5750E1F2452097A00598112 /* SceneDelegate.swift in Sources */,
+				C53BD36A24533EAF00121F99 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

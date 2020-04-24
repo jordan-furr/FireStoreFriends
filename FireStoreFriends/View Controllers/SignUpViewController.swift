@@ -42,7 +42,7 @@ class SignUpViewController: UIViewController{
         let confirm = confirmTextField.text!
         
         if loginMode == true {
-            if email != "" && password.count >= 6 {
+            if email != "" {
                 FirebaseSystem.shared.login(email: email, password: password) { (success) in
                     if success {
                         self.performSegue(withIdentifier: "toTabBar", sender: self)
