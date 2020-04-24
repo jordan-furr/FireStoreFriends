@@ -93,8 +93,10 @@ class FirebaseSystem {
                 for document in querySnapshot!.documents {
                     // print("\(document.documentID) => \(document.data())")
                     let data = document.data()
-                    let user = User(userEmail: data["email"] as! String, userID: data["uid"] as! String)
-                    FirebaseSystem.shared.userList.append(user)
+                    if data["uid"] as! String != self.currentUsersID {
+                        let user = User(userEmail: data["email"] as! String, userID: data["uid"] as! String)
+                        FirebaseSystem.shared.userList.append(user)
+                    }
                 }
                 print(FirebaseSystem.shared.userList.count)
             }
